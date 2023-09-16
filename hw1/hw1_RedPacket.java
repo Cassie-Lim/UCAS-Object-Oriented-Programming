@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 public class RedPacket {
 
@@ -28,7 +29,13 @@ public class RedPacket {
     }
 
     public static void main(String[] args) {
-        List<Double> redPackets = splitRedPacket(100.00, 5);
+        System.out.print("Please type in total amount:");
+        Scanner scan = new Scanner(System.in);
+        int totalAmount = scan.nextInt();
+        System.out.print("Please type in total number of the red packets:");
+        int num = scan.nextInt();
+        scan.close();
+        List<Double> redPackets = splitRedPacket(totalAmount, num);
         for (double amount : redPackets) {
             System.out.println(amount + " yuan");
         }
