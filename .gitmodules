@@ -1,0 +1,3 @@
+[submodule "final_proj"]
+	path = final_proj
+	url = https://github.com/Cassie-Lim/Unity3d_maze_jaunt.git
