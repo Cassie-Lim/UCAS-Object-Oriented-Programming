@@ -1,7 +1,7 @@
 # UCAS Object Oriented Programming
 > Final proj选题：游戏设计
 >
-> 游戏的repo（诚邀一起开发🤧）：
+> 游戏的repo（诚邀一起开发🤧）：https://github.com/Cassie-Lim/Beyond-the-Life
 >
 > 在代码基本完善的情况下，只需要搭建新的场景、编写故事线...想学做游戏的话是个很好的上手机会！
 
@@ -54,6 +54,10 @@
 ![image-20240117015247210](README.assets/image-20240117015247210.png)
 
 以下是在GameManager控制下实现场景切换、视频播放的示例：
+
+
+
+https://github.com/Cassie-Lim/UCAS-Object-Oriented-Programming/assets/98252468/72b807a6-e1cf-43a1-86b5-711ababee9d5
 
 
 
@@ -213,6 +217,10 @@
 
 
 
+https://github.com/Cassie-Lim/UCAS-Object-Oriented-Programming/assets/98252468/7afa6063-2159-42ad-bb66-7444b74cf34e
+
+
+
 ### 2.4 NPC类
 
 玩家需要保证不被敌人NPC发现，敌人NPC分为固定的和可移动的，下面将展开介绍其设计实现。
@@ -269,6 +277,10 @@
 ![image-20240117031804818](README.assets/image-20240117031804818.png)
 
 NPC在固定点间往复运动示意：
+
+
+
+https://github.com/Cassie-Lim/UCAS-Object-Oriented-Programming/assets/98252468/b31d6a36-bbdd-4f1c-9daf-27cf8f5da0bc
 
 
 
