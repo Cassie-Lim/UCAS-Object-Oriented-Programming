@@ -1,4 +1,29 @@
-[toc]
+- [UCAS Object Oriented Programming - 仓库简介](#ucas-object-oriented-programming---仓库简介)
+- [设计实现：Beyond Life](#设计实现beyond-life)
+  - [1. 游戏整体介绍](#1-游戏整体介绍)
+  - [2. 类的设计与分析](#2-类的设计与分析)
+    - [2.1 GameManager](#21-gamemanager)
+    - [2.2 Level](#22-level)
+    - [2.3 Dialogue系统](#23-dialogue系统)
+      - [2.3. Dialogue Character](#23-dialogue-character)
+      - [2.3.2 Dialogue Manager](#232-dialogue-manager)
+      - [2.3.3 Dialogue UI](#233-dialogue-ui)
+    - [2.4 NPC类](#24-npc类)
+      - [2.4.1 Observer](#241-observer)
+      - [2.4.2 WaypointPatrol](#242-waypointpatrol)
+    - [2.5 GameEnding](#25-gameending)
+  - [3. 高级设计模式分析](#3-高级设计模式分析)
+    - [3.1 观察者模式](#31-观察者模式)
+    - [3.2 代理模式](#32-代理模式)
+    - [3.3 单例模式](#33-单例模式)
+    - [3.4 策略模式](#34-策略模式)
+    - [3.5 组件模式](#35-组件模式)
+    - [3.6 状态模式](#36-状态模式)
+  - [4. TODO LIST](#4-todo-list)
+    - [4.1 游戏多样性增强](#41-游戏多样性增强)
+    - [4.2 用户体验优化](#42-用户体验优化)
+    - [4.3 游戏存档系统改进](#43-游戏存档系统改进)
+
 
 # UCAS Object Oriented Programming - 仓库简介
 
